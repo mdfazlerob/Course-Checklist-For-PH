@@ -1,3 +1,4 @@
+@import "tailwindcss";
 :root {
   --bg: #f4f5f8;
   --card: #ffffff;
@@ -75,9 +76,11 @@ h1 { font-size: 22px; margin: 0 0 4px; }
   bottom: 20px;
   right: 20px;
   padding: 10px 20px;
-  background-color: #4f7cff;
+  background-color: #760495;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-size: bold;
+  text-decoration: none;
 }
