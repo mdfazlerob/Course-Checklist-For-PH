@@ -1,6 +1,7 @@
+@import "tailwindcss";
 :root {
   --bg: #f4f5f8;
-  --card: #ffffff;
+  --card: #760495;
   --text: #1b1d24;
   --muted: #6b7080;
   --border: #e6e8ef;
@@ -10,8 +11,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #12141a;
-    --card: #1b1e27;
+    --bg: #2b1a30;
+    --card: #760495;
     --text: #eceef4;
     --muted: #9aa0b2;
     --border: #2a2e3a;
@@ -69,3 +70,17 @@ h1 { font-size: 22px; margin: 0 0 4px; }
 .tag { font-size: 10px; font-weight: 800; color: #fff; padding: 3px 7px; border-radius: 5px; letter-spacing: .4px; }
 .tag.NEW { background: #2f8a3a; }
 .tag.ADV { background: #d6a40f; }
+.main-image {
+  display: flex;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #760495;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: bold;
+  text-decoration: none;
+}
